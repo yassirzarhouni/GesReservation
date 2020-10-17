@@ -1,0 +1,91 @@
+.flex-form {
+    
+    top: 45%;
+    z-index: 100;
+  }
+  .flex-form > * {
+    border: 0;
+    padding: 1em;
+    background: #fff;
+    line-height: 60px;
+    font-size: 1.2em;
+    border-radius: 0;
+    outline: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+  .flex-form > *:last-child {
+    border-right: 0;
+  }
+  
+  .cta {
+    background: -webkit-linear-gradient(to right, #58f0ff, #2F80ED);
+  background: linear-gradient(to right, #58f0ff, #2F80ED);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .cover {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+  
+  .flex-form {
+    display: -webkit-box;
+    display: flex;
+    border: 20px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+            flex: 1 1 100%;
+  }
+  
+  span {
+    display: block;
+    width: auto;
+  }
+  
+  video {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  input[type="date"] {
+    height: 60px;
+  }
+  
+  @media screen and (max-width: 1263px) {
+    .flex-form {
+      border: none;
+    }
+    .flex-form > * {
+      border-top: 1px solid rgba(0, 0, 0, 0.3);
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .flex-form {
+      top: 20%;
+    }
+    .flex-form > * {
+      line-height: 1.5em;
+    }
+  
+    input[type="date"] {
+      height: 1.5em;
+    }
+  }
+  

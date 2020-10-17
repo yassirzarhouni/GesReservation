@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+.container {
+    margin: 10vmin auto;
+    position: relative;
+}
+
+.container .row h1::first-letter {
+    color: #9a52fd;
+   
+}
+.container .row h1{
+    z-index: 4;
+    
+    font-weight: lighter;
+}
+.container .row p{
+    color: #9a52fd;
+}
+
+.container .row p a {
+    color: #9a52fd;
+    text-decoration: underline #9a52fd;
+}
+
+.container .row .col-md-6 {
+    padding: 10vmin;
+}
+
+.container .row .img {
+    background: url('images/cool-background.png');
+    background-size: cover;
+}
+
+.container .row .col-md-6 form input {
+    border: none;
+    border-bottom: 1px solid #9a52fd;
+    color: #9a52fd;
+}
+.container .row .col-md-6 form input:focus{
+    border: none;
+    border-bottom: 5px solid #9a52fd;
+    box-shadow: none;
+    border-radius: none;
+    
+}
+.container .row .col-md-6 form label {
+    color: rgba(107, 101, 101, 0.753);
+
+}
+
+.container .row .col-md-6 form .form-check-label {
+    color: #57ffed;
+}
+
+.container .row .col-md-6 form button {
+    background-color: #57ffed;
+    color: white;
+}
+
+.container .row .col-md-6 form .text-center a {
+    color: #57ffed;
+
+}
+
+
+
+.btn{
+    
+    color: white;
+    background-image: -webkit-linear-gradient(0deg, #9a52fd 0%, #57ffed 100%);
+}
+.btn:hover{
+    background-image: -webkit-linear-gradient(0deg, #57ffed 0%, #9a52fd 100%);
+    
+}
+.iconper{
+    color: #57ffed;
+}
